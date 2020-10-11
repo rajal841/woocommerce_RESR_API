@@ -1,6 +1,6 @@
 <?php
 
-require_once( $_SERVER['DOCUMENT_ROOT'] . '/example-woo-api-app-master/inc/setup.php' );
+require_once( $_SERVER['DOCUMENT_ROOT'] . '/woocommerce_rest_api/inc/setup.php' );
 
 if ( ! iconic_verify_form_token( 'iconic-connect' ) ) {
 	iconic_add_notice( 'Could not verify form token.' );
