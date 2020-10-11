@@ -1,5 +1,5 @@
 <?php
-require_once( $_SERVER['DOCUMENT_ROOT'] . '/example-woo-api-app-master/inc/setup.php' ); ?>
+require_once( $_SERVER['DOCUMENT_ROOT'] . '/woocommerce_rest_api/inc/setup.php' ); ?>
 
 <!DOCTYPE html>
 <html lang="en">
