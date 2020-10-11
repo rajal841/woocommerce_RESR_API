@@ -6,7 +6,7 @@
  * @return string
  */
 function iconic_get_app_url() {
-	return 'http://localhost/example-woo-api-app-master/';
+	return 'http://localhost/woocommerce_rest_api/';
 }
 
 /**
@@ -130,8 +130,8 @@ function iconic_add_auth_params( $url ) {
 		'app_name'     => 'WooCommerce App',
 		'scope'        => 'read_write', // 'read', 'write', 'read_write'
 		'user_id'      => iconic_get_user_id(), // Local user ID
-		'return_url'   => 'http://localhost/example-woo-api-app-master/',
-		'callback_url' => 'http://localhost/example-woo-api-app-master/callback.php', // Must be https
+		'return_url'   => 'http://localhost/woocommerce_rest_api/',
+		'callback_url' => 'http://localhost/woocommerce_rest_api/callback.php', // Must be https
 	);
 
 	/**
