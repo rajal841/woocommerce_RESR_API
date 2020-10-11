@@ -19,7 +19,7 @@ if( empty( $post_data->key_id ) ) {
 	die;
 }
 
-require_once( $_SERVER['DOCUMENT_ROOT'] . '/inc/setup.php' );
+require_once( $_SERVER['DOCUMENT_ROOT'] . '/woocommerce_rest_api/inc/setup.php' );
 
 /**
  * Store the keys as they are, but in the real world, focus on securing your overall app to prevent
